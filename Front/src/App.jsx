@@ -8,9 +8,10 @@ import LoginPopup from './components/LoginPopup/LoginPopup'
 
 
 function App() {
+  //showslider
   const [showSlidebar,setShowSlidebar] = useState(false);
   const [showLogin, setShowLogin] = useState(false);
-  
+  //
   return (
     <>
       {showLogin && <LoginPopup setShowLogin={setShowLogin} />}
